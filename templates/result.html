@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Prediction Result</title>
+</head>
+<body>
+    <h2>Prediction Result</h2>
+    <p><strong>Predicted Cancer Type:</strong> {{ prediction }}</p>
+    
+    {% if prediction == 'melanoma' %}
+        <p><strong>Predicted Stage:</strong> {{ stage }}</p>
+    {% endif %}
+    
+    <a href="/">Go Back</a>
+</body>
+</html>
