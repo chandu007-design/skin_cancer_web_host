@@ -1,9 +1,8 @@
 Flask
 gunicorn
-tensorflow==2.13.0
-Flask
-tensorflow
-Pillow
+tensorflow==2.12.0
+werkzeug
+pillow
 numpy
 pandas
 scikit-learn
